@@ -1,0 +1,42 @@
+/*!
+ * Bootstrap v3.3.7 (http://getbootstrap.com)
+ * Copyright 2011-2017 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+/*!
+ * Generated using the Bootstrap Customizer (http://getbootstrap.com/docs/3.3/customize/?id=60660cef1fbead2816d934b9dc487200)
+ * Config saved to config.json and https://gist.github.com/60660cef1fbead2816d934b9dc487200
+ */
+/*!
+ * Bootstrap v3.3.7 (http://getbootstrap.com)
+ * Copyright 2011-2016 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+/* Hero / About section backgrounds */
+.fullwidth-bg {
+    /* Background image (example) */
+    background-image: url('../images/kifaru-kubwa.jpg');
+    /* Modern replacement for -webkit-background-size */
+    background-size: cover; /* Ensures image covers the container */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevent tiling */
+    background-attachment: scroll; /* or 'fixed' if you want parallax */
+    /* Full width and height */
+    width: 100%;
+    height: 100vh; /* full viewport height */
+}
+
+/* Make it mobile-friendly */
+@media (max-width: 768px) {
+    .fullwidth-bg {
+        height: 50vh; /* smaller height on tablets */
+        background-position: top; /* focus on top of image */
+    }
+}
+
+@media (max-width: 480px) {
+    .fullwidth-bg {
+        height: 40vh; /* smaller height on phones */
+        background-position: top; /* keep important part visible */
+    }
+}
