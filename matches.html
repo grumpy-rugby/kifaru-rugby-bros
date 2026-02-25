@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kifaru Rugby - Match Videos">
+    <meta name="author" content="Kifaru Rugby Club">
+    <title>Kifaru Rugby - Match Videos</title>
+
+    <link rel="icon" href="images/kifaru-kubwa.jpg">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    </head>
+<body>
+
+    <header>
+        <h1> Kifaru Rugby - Match Videos</h1>
+    </header>
+    <style>
+    body {
+    font-family: 'Raleway', sans-serif;
+    background:image("images/mtaani.jpg");
+    margin: 0;
+    padding: 0;
+    }
+
+    header {
+    background:green;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    }
+
+    header h1 {
+    margin: 0;
+    }
+
+    .videos-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    }
+
+        .video-card {
+            background: rgb(63 91 62 / 84%);
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            overflow: hidden;
+            text-align: center;
+        }
+
+    .video-card video {
+    width: 300px;
+    height: auto;
+    }
+
+    .video-card h3 {
+    margin: 10px 0;
+    font-size: 18px;
+    padding: 0 10px;
+    }
+
+    footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    }
+    /* Responsive */
+    @media (max-width: 768px) {
+    .videos-container {
+    grid-template-columns: 1fr;
+    padding: 10px;
+    }
+    }
+        </style>
+    <main class="videos-container">
+        <!-- Video 1 -->
+        <div class="video-card">
+            <video controls>
+                <source src="videos/knock2.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <h3> Match 1: Kifaru vs Eagles</h3>
+        </div>
+        <!-- Video 2 -->
+        <div class="video-card">
+            <video controls>
+                <source src="videos/play-on.mp4" type="video/mp4">
+
+            </video>
+            <h3> Match 2: Kifaru vs Hawks</h3>
+        </div>
+        <!-- Video 3 -->
+        <div class="video-card">
+            <video controls>
+                <source src="videos/gusta-knock-on.mp4" type="video/mp4">
+
+            </video>
+            <h3> Match 3: Kifaru vs Rift Valley RFC</h3>
+        </div>
+
+        <div class="video-card">
+            <video controls>
+                <source src="videos/maliza1.mp4" type="video/mp4">
+
+            </video>
+            <h3> Match 3: Kifaru vs mawe RFC</h3>
+        </div>
+
+        <div class="video-card">
+            <video controls>
+                <source src="videos/warm-down-1.mp4" type="video/mp4">
+
+            </video>
+            <h3> local day warm down </h3>
+        </div>
+
+        <div class="video-card">
+            <video controls>
+                <source src="videos/tactical.mp4" type="video/mp4">
+
+            </video>
+            <h3> Match 4: Kifaru vs uon</h3>
+        </div>
+
+        <div class="video-card">
+            <video controls>
+                <source src="videos/new-mak.mp4" type="video/mp4">
+
+            </video>
+            <h3> Match 4: Kifaru vs Hawks</h3>
+        </div>
+
+        <div class="video-card">
+            <video controls>
+                <source src="videos/steve.mp4" type="video/mp4">
+
+            </video>
+            <h3> Match 4: Kifaru vs Hawks</h3>
+        </div>
+
+
+
+
+
+        <div class="video-card">
+            <video controls>
+                <source src="videos/gals.mp4" type="video/mp4">
+
+            </video>
+            <h3> madem</h3>
+        </div>
+        <!-- Add more videos as needed -->
+    </main>
+
+    <footer>
+        &copy; 2026 Kifaru Rugby Club. All rights reserved.
+    </footer>
+    <!-- Scripts -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+</body>
+        </html >
